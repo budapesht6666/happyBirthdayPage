@@ -11,7 +11,7 @@ if (appContainer) {
   // Initialize the CircleStack component
   const circleStack = new CircleStackComponent(appContainer);
   
-  // Clean up on window unload
+  // Clean up on window unload111
   window.addEventListener('beforeunload', () => {
     circleStack.destroy();
   });
