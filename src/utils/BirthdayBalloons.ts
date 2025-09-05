@@ -156,11 +156,8 @@ export class BirthdayBalloons {
   }
 
   private generatePastelColor(): string {
-    // Generate a pastel color
-    const hue = Math.floor(Math.random() * 360);
-    const saturation = Math.floor(50 + Math.random() * 30); // 50-80%
-    const lightness = Math.floor(70 + Math.random() * 20); // 70-90%
-    return `hsl(${hue}, ${saturation}%, ${lightness}%)`;
+    // Generate red color
+    return '#ff0000';
   }
 
   public stop(): void {
